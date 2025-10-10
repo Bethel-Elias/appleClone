@@ -55,6 +55,50 @@ img {
 .header-wrapper .header-links-wrapper ul li.cart-link {
   padding: 12px 0 10px;
 }
+/* work on second Iphone-11pro section */
+.iphone11-pro {
+  background-image: url("../Image/home/iphone11-pro-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  color: #fff;
+}
+
+.iphone11-phone {
+  font-weight: 600;
+  font-size: 56px;
+}
+.iphone11pro-description {
+  font-size: 26px;
+  padding: 10px 0;
+}
+.iphone11-cash {
+  color: #86868b;
+  font-size: 0.85em;
+}
+.iphone11pro-phone-links a {
+    text-decoration: none;
+    color: #0071e3; /* Apple-style blue link */
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.iphone11phone-links a::after {
+    content: "›"; /* right arrow symbol */
+    margin-left: 6px;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+/* Optional hover animation (slide arrow to right) */
+.iphone11phone-links a:hover::after {
+    transform: translateX(4px);
+}
+
 /* work on fithsection */
 .fifth-heghlight-wrapper {
   display: flex;
